@@ -32,7 +32,7 @@ export default function TextForm({heading, mode, showAlert}) {
     <>
     <div className="container" style={{color: mode === 'dark' ? '#ffffff' : '#000000'}}>
         <h2>{heading}</h2>
-        <div className="mb-3">
+        <div className="my-3 mb-3">
             <textarea className="form-control" onChange={handleOnChange} value={text} id="myBox" rows="8"
              style={{backgroundColor: mode === 'dark' ? '#212529' : '#ffffff', color: mode === 'dark' ? '#ffffff' : '#000000'}}>
              </textarea>

@@ -15,3 +15,7 @@ code {
 .accordion-button::after {
   filter: invert(1);
 }
+
+.alert-container {
+  height: 50px;
+}

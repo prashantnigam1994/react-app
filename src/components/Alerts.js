@@ -7,8 +7,8 @@ export default function Alerts({ alert }) {
   }
 
   return (
-    alert && <div className={`alert alert-${alert.type}`} role="alert">
-        {capitalize(alert.type)} : {alert.msg}
+    <div className="alert-container">
+      {alert && (<div className={`alert alert-${alert.type}`} role="alert">{capitalize(alert.type)} : {alert.msg}</div>)}
     </div>
   )
 }
